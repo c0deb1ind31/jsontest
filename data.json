@@ -1,10 +1,276 @@
-[
+{
+ "flight": [
+  {
+   "name": "GO FIRST",
+   "no": "G8330",
+   "details": [
     {
-        "id": 1,
-        "name": "example"
+     "from_to": "DEL",
+     "timings": "22:00",
+     "date": "Fri, 09 Dec"
     },
     {
-        "id": 2,
-        "name": "aitd"
+     "from_to": "BOM",
+     "timings": "00:10",
+     "date": "Sat, 10 Dec"
     }
-]
+   ],
+   "price": "14353"
+  },
+  {
+   "name": "SpiceJet",
+   "no": "SG3788, SG344",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "16:25",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "12:30",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "12280"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK969, UK918",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "18:00",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "06:15",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "12812"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK969, UK936",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "18:00",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "09:40",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "12812"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK969, UK956",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "18:00",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "18:45",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "12812"
+  },
+  {
+   "name": "IndiGo",
+   "no": "6E2208, 6E5282",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "22:45",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "07:25",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "13882"
+  },
+  {
+   "name": "GO FIRST",
+   "no": "G8330",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "22:00",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "00:10",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "14353"
+  },
+  {
+   "name": "GO FIRST",
+   "no": "G8354",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "23:15",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "01:25",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "14353"
+  },
+  {
+   "name": "GO FIRST",
+   "no": "G8713, G8459",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "21:35",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "10:45",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "14560"
+  },
+  {
+   "name": "IndiGo",
+   "no": "6E607, 6E6182",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "22:00",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "05:50",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "14309"
+  },
+  {
+   "name": "Akasa Air",
+   "no": "QP1118",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "16:10",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "18:20",
+     "date": "Fri, 09 Dec"
+    }
+   ],
+   "price": "15240"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK981",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "21:40",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "23:40",
+     "date": "Fri, 09 Dec"
+    }
+   ],
+   "price": "15825"
+  },
+  {
+   "name": "GO FIRST",
+   "no": "G8346",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "21:20",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "23:35",
+     "date": "Fri, 09 Dec"
+    }
+   ],
+   "price": "15929"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK929, UK918",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "21:20",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "06:15",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "15962"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK929, UK936",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "21:20",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "09:40",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "15962"
+  },
+  {
+   "name": "Vistara",
+   "no": "UK929, UK956",
+   "details": [
+    {
+     "from_to": "DEL",
+     "timings": "21:20",
+     "date": "Fri, 09 Dec"
+    },
+    {
+     "from_to": "BOM",
+     "timings": "18:45",
+     "date": "Sat, 10 Dec"
+    }
+   ],
+   "price": "15962"
+  }
+ ]
+}

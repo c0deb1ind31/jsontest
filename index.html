@@ -16,9 +16,12 @@
         })
         .then((data) => {
           console.log(data);
-          data.map((d) => {
+          let flights = data["flight"];
+
+          flights.map((flight) => {
             const newel = document.createElement("li");
-            newel.innerHTML = `<p>${d.name}</p>`;
+            newel.innerHTML = `<p>${flight.name}</p>`;
+            // newel.innerHTML = JSON.stringify(flight);
             el.appendChild(newel);
           });
         });
