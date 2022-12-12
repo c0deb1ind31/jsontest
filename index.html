@@ -7,22 +7,48 @@
     <title>Document</title>
   </head>
   <body>
-    <ul id="test"></ul>
+    <table border id="table">
+      <tr>
+        <th>Flight name</th>
+        <th>Flight Number</th>
+        <th>From to</th>
+        <th>Timing</th>
+        <th>Date</th>
+      </tr>
+    </table>
     <script>
-      let el = document.getElementById("test");
+      let table = document.getElementById("table");
+
       fetch("/data.json")
         .then((res) => {
           return res.json();
         })
         .then((data) => {
-          console.log(data);
           let flights = data["flight"];
 
           flights.map((flight) => {
-            const newel = document.createElement("li");
-            newel.innerHTML = `<p>${flight.name}</p>`;
-            // newel.innerHTML = JSON.stringify(flight);
-            el.appendChild(newel);
+            for (let key in flight) {
+              if (typeof flight[key] === "object") {
+                flight[key].forEach((details) => {
+                  const tableRow = document.createElement("tr");
+                  let flightName = document.createElement("td");
+                  let flightNumber = document.createElement("td");
+                  
+                  flightName.innerText = flight["name"];
+                  flightNumber.innerText = flight["no"];
+
+                  tableRow.appendChild(flightName);
+                  tableRow.appendChild(flightNumber);
+
+                  for (let key in details) {
+                    let tableData1 = document.createElement("td");
+                    tableData1.innerText = details[key];
+                    tableRow.appendChild(tableData1);
+                    table.appendChild(tableRow);
+                  }
+                });
+              }
+            }
           });
         });
     </script>
