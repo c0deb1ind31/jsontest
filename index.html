@@ -27,28 +27,25 @@
           let flights = data["flight"];
 
           flights.map((flight) => {
-            for (let key in flight) {
-              if (typeof flight[key] === "object") {
-                flight[key].forEach((details) => {
-                  const tableRow = document.createElement("tr");
-                  let flightName = document.createElement("td");
-                  let flightNumber = document.createElement("td");
-                  
-                  flightName.innerText = flight["name"];
-                  flightNumber.innerText = flight["no"];
+            
+            flight["details"].forEach((details) => {
+              const tableRow = document.createElement("tr");
+              let flightName = document.createElement("td");
+              let flightNumber = document.createElement("td");
 
-                  tableRow.appendChild(flightName);
-                  tableRow.appendChild(flightNumber);
+              flightName.innerText = flight["name"];
+              flightNumber.innerText = flight["no"];
 
-                  for (let key in details) {
-                    let tableData1 = document.createElement("td");
-                    tableData1.innerText = details[key];
-                    tableRow.appendChild(tableData1);
-                    table.appendChild(tableRow);
-                  }
-                });
+              tableRow.appendChild(flightName);
+              tableRow.appendChild(flightNumber);
+
+              for (let key in details) {
+                let tableData1 = document.createElement("td");
+                tableData1.innerText = details[key];
+                tableRow.appendChild(tableData1);
+                table.appendChild(tableRow);
               }
-            }
+            });
           });
         });
     </script>
